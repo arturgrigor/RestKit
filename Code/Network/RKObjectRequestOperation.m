@@ -128,6 +128,7 @@ static void *RKOperationFinishDate = &RKOperationFinishDate;
 - (void)objectRequestOperationDidStart:(NSNotification *)notification
 {
     RKObjectRequestOperation *objectRequestOperation = [notification object];
+    if (! [objectRequestOperation isKindOfClass:[RKObjectRequestOperation class]]) return;
     objc_setAssociatedObject(objectRequestOperation, RKOperationStartDate, [NSDate date], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
     NSURLRequest *request = objectRequestOperation.HTTPRequestOperation.request;
