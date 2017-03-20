@@ -28,12 +28,12 @@ target 'RestKit' do
   end
 end
 
-target 'RestKitFramework' do
+target 'RestKit iOS Framework' do
+  platform :ios, '8.0'
+  podspec
+end
+
+target 'RestKit macOS Framework' do
   platform :osx, '10.9'
   podspec
-
-  target 'RestKitFrameworkTests' do
-      inherit! :search_paths
-      import_pods
-  end
 end

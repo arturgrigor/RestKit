@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25160E61145651060060A5C5"
+               BlueprintIdentifier = "FE0933081E80103F0092BF67"
                BuildableName = "RestKit.framework"
-               BlueprintName = "RestKitFramework"
+               BlueprintName = "RestKit macOS Framework"
                ReferencedContainer = "container:RestKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25160E77145651060060A5C5"
-               BuildableName = "RestKitFrameworkTests.xctest"
-               BlueprintName = "RestKitFrameworkTests"
-               ReferencedContainer = "container:RestKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25160E61145651060060A5C5"
-            BuildableName = "RestKit.framework"
-            BlueprintName = "RestKitFramework"
-            ReferencedContainer = "container:RestKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25160E61145651060060A5C5"
+            BlueprintIdentifier = "FE0933081E80103F0092BF67"
             BuildableName = "RestKit.framework"
-            BlueprintName = "RestKitFramework"
+            BlueprintName = "RestKit macOS Framework"
             ReferencedContainer = "container:RestKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25160E61145651060060A5C5"
+            BlueprintIdentifier = "FE0933081E80103F0092BF67"
             BuildableName = "RestKit.framework"
-            BlueprintName = "RestKitFramework"
+            BlueprintName = "RestKit macOS Framework"
             ReferencedContainer = "container:RestKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

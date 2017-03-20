@@ -1,0 +1,9 @@
+CODE_SIGN_IDENTITY =
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack-OSX" "$PODS_CONFIGURATION_BUILD_DIR/ISO8601DateFormatterValueTransformer-OSX" "$PODS_CONFIGURATION_BUILD_DIR/RKValueTransformers-OSX" "$PODS_CONFIGURATION_BUILD_DIR/SOCKit-OSX" "$PODS_CONFIGURATION_BUILD_DIR/TransitionKit-OSX"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/../Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack-OSX/CocoaLumberjack.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ISO8601DateFormatterValueTransformer-OSX/ISO8601DateFormatterValueTransformer.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RKValueTransformers-OSX/RKValueTransformers.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SOCKit-OSX/SOCKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/TransitionKit-OSX/TransitionKit.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "CocoaLumberjack" -framework "ISO8601DateFormatterValueTransformer" -framework "RKValueTransformers" -framework "SOCKit" -framework "TransitionKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

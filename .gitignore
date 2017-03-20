@@ -24,10 +24,7 @@ Examples/RKDiscussionBoardExample/discussion_board_backend/public/system/attachm
 
 test-reports/
 
-# CocoaPods
-Pods
-RestKit.xcodeproj/xcshareddata/
-RestKit.xcworkspace/xcshareddata/xcschemes/
+# Misc
 DerivedData
 
 # Bundler binstubs
